@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #181818;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    padding: 0 1.5em;
+}
+
+.content {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+
+.title {
+    text-align: center;
+    font-size: 1.8em;
+    color: rgb(240, 225, 12);
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+
+.wrapperL,
+.wrapperR {
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+}
+
+.wrapperL>* {
+    padding: 1em;
+}
+
+.wrapperR>* {
+    padding: 1em;
+}
+
+.texto {
+    background-color: #192836;
+    display: flex;
+    align-items: center;
+}
+
+.wrapperL {
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.imagen {
+    background-color: rgb(21, 33, 44);
+}
+
+.imagen img {
+    display: block;
+    max-width: 350px;
+    max-height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.texto p {
+    text-align: justify;
+    font-size: 1em;
+}
+
+.texto h2 {
+    color: rgb(240, 225, 12);
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.texto button {
+    display: block;
+    color: rgb(255, 255, 255);
+    background-color: rgb(59, 59, 59);
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+}
+
+.texto button:hover {
+    background-color: rgba(211, 211, 211, 0.507);
+    font-size: 18.5px;
+    border-radius: 25px;
+    color: rgb(0, 0, 0);
+    transition: background-color 1s ease-out;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.contacto h2 {
+    text-align: center;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 1em;
+}
+
+.contacto nav {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 10px;
+    padding: 1em;
+    background-color: rgb(44, 47, 49);
+    display: block;
+    height: 110px;
+    margin-bottom: 0;
+}
+
+.contacto nav i {
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    height: auto;
+    padding: 10px
+}
+
+.contacto nav i:hover {
+    background-color: rgba(107, 107, 107, 0.507);
+    font-size: 60px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    transition: background-color 1s ease-out;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media(min-width: 1000px) {
+    .title {
+        font-size: 45px;
+        margin-bottom: 1em;
+        text-align: center;
+    }
+    .subtitlulo {
+        text-align: center;
+    }
+    .texto p {
+        text-align: center;
+        font-size: 1em;
+    }
+    .imagen img {
+        display: block;
+        max-width: 450px;
+        max-height: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .wrapperL {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        margin-bottom: 1em;
+    }
+    .wrapperR {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        margin-bottom: 1em;
+    }
+    .contacto h2 {
+        text-align: center;
+        margin-left: 5em;
+        margin-right: 5em;
+        padding: 1em;
+    }
+}

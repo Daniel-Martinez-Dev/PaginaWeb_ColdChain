@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #181818;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    padding: 0 1.5em;
+}
+
+.content {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+
+.title {
+    text-align: center;
+    font-size: 1.8em;
+    color: rgb(240, 225, 12);
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+
+.wrapper {
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+}
+
+.wrapper>* {
+    padding: 1em;
+}
+
+.Cold-left h2 {
+    color: rgb(240, 225, 12);
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.Cold-right {
+    background: #222222;
+    padding: 1em;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.Cold-left img {
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 350px;
+    height: auto;
+}
+
+.objetivos {
+    background: #192836;
+    border-radius: 10px;
+}
+
+.card {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    height: auto;
+}
+
+.card img {
+    max-height: 250px;
+    padding: 1rem;
+}
+
+.card h5 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.card p {
+    text-align: justify;
+}
+
+.card:hover {
+    border: 1.5px solid rgb(0, 0, 0);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.contacto h2 {
+    text-align: center;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 1em;
+}
+
+.contacto nav {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 10px;
+    padding: 1em;
+    background-color: rgb(44, 47, 49);
+    display: block;
+    height: 110px;
+    margin-bottom: 0;
+}
+
+.contacto nav i {
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    height: auto;
+    padding: 10px
+}
+
+.contacto nav i:hover {
+    background-color: rgba(107, 107, 107, 0.507);
+    font-size: 60px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    transition: background-color 1s ease-out;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media(min-width: 1000px) {
+    .title {
+        font-size: 45px;
+        margin-bottom: 1em;
+        text-align: center;
+    }
+    .subtitlulo {
+        text-align: center;
+    }
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        margin-bottom: 1em;
+    }
+    .Cold-right {
+        font-size: 16px;
+    }
+    .Cold-left img {
+        width: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 4rem;
+        width: auto;
+    }
+    .card {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1em;
+        width: 50%;
+        height: auto;
+    }
+    .card img {
+        max-height: 250px;
+        padding: 1rem;
+    }
+    .card h5 {
+        text-align: center;
+        font-size: 18px;
+    }
+    .card p {
+        text-align: center;
+        font-size: 15px;
+    }
+    .card img {
+        display: block;
+        width: 250x;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .objetivos {
+        padding: 0.5em;
+    }
+    .card {
+        height: 36em;
+        padding: 0.5em;
+    }
+    .contacto h2 {
+        text-align: center;
+        margin-left: 5em;
+        margin-right: 5em;
+        padding: 1em;
+    }
+}

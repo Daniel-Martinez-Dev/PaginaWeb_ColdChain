@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #181818;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    padding: 0 1.5em;
+}
+
+.content {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+
+.title {
+    margin-left: 1em;
+    margin-right: 1em;
+    text-align: center;
+    font-size: 1.8em;
+    color: rgb(255, 255, 255);
+}
+
+.title span {
+    color: rgb(240, 225, 12);
+    margin-bottom: 1em;
+}
+
+.wrapper {
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+}
+
+.wrapper>* {
+    padding: 1em;
+}
+
+.Cold-info h2 {
+    color: rgb(240, 225, 12);
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.Cold-info {
+    background: #222222;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.Cold-img img {
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 500px;
+    width: auto;
+}
+
+.carru {
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+.carru img {
+    padding: 1em;
+    max-height: auto;
+    max-width: 700px;
+}
+
+.parte3 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 15em;
+    width: auto;
+}
+
+.parte4 nav {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 10px;
+    padding: 1em;
+    background-color: rgb(44, 47, 49);
+    display: block;
+    height: 110px;
+    margin-bottom: 0;
+}
+
+.parte4 nav i {
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    height: auto;
+    padding: 10px
+}
+
+.parte4 nav i:hover {
+    background-color: rgba(107, 107, 107, 0.507);
+    font-size: 60px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    transition: background-color 1s ease-out;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media(min-width: 1000px) {
+    .title {
+        font-size: 45px;
+        margin-bottom: 1em;
+        text-align: center;
+    }
+    .subtitlulo {
+        text-align: center;
+    }
+    .wrapper {
+        display: grid;
+        grid-template-columns: 2fr 1.5fr;
+        margin-bottom: 1rem;
+    }
+    .Cold-info {
+        font-size: 16px;
+    }
+    .Cold-img img {
+        width: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-height: 500px;
+        width: auto;
+    }
+    .parte3 img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 20em;
+    }
+    .parte3 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .wrapper>* {
+        padding: 2em;
+    }
+}
+
+
+/* =================================================================rgb(240, 225, 12)
